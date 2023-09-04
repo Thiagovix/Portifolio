@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: #415A77;
     height: 100vh;
 }
 
@@ -24,7 +24,7 @@ body{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: aquamarine;
+    background-color: #E0E1DD;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -38,11 +38,11 @@ h2.titulo{
 }
 
 h2.titulo span{
-    color: aquamarine;
+    color: white;
 }
 
 button:hover{
-    box-shadow: 0px 0px 8px aquamarine;
+    box-shadow: 0px 0px 8px white;
     transform: scale(1.05);
 }
 
@@ -58,7 +58,7 @@ header > .interface{
 }
 
 header a{
-    color: #5c5c5c;
+    color: white;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
@@ -96,7 +96,7 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site .txt-topo-site h1 span{
-    color: purple;
+    color: white;
 }
 
 .topo-do-site .txt-topo-site p{
@@ -142,7 +142,7 @@ section.especialidades .flex{
 
 .especialidades .especialidades-box i{
     font-size: 70px;
-    color: aquamarine;
+    color: #E0E1DD;
 }
 
 .especialidades .especialidades-box h3{
@@ -171,7 +171,7 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre h2 span{
-    color: aquamarine;
+    color: #1B263B;
     display: block;
 }
 
@@ -185,7 +185,7 @@ section.sobre .flex{
     height: 60px;
     border-radius: 30px;
     border: none;
-    background-color: aquamarine;
+    background-color: white;
     font-size: 22px;
     cursor: pointer;
     margin: 0 5px;
@@ -255,11 +255,11 @@ footer .line-footer{
 }
 
 .borda{
-    border-top: 2px solid aquamarine;
+    border-top: 2px solid #778DA9;
 }
 
 footer .line-footer p i{
-    color: aquamarine;
+    color: white;
     font-size: 22px;
 }
 
