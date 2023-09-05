@@ -76,6 +76,7 @@ header nav ul{
 header nav ul li{
     display: inline-block;
     padding: 0 40px;
+    font-size: 20px;
 }
 
 /* ESTILO DO TOPO DO SITE*/
@@ -171,7 +172,7 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre h2 span{
-    color: #1B263B;
+    color: #1b263b;
     display: block;
 }
 
@@ -185,7 +186,7 @@ section.sobre .flex{
     height: 60px;
     border-radius: 30px;
     border: none;
-    background-color: white;
+    background-color:  #E0E1DD;
     font-size: 22px;
     cursor: pointer;
     margin: 0 5px;
@@ -259,7 +260,7 @@ footer .line-footer{
 }
 
 footer .line-footer p i{
-    color: white;
+    color:  #E0E1DD;
     font-size: 22px;
 }
 
