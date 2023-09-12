@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #415A77;
+    background-color: #1b1b1b;
     height: 100vh;
 }
 
@@ -24,15 +24,15 @@ body{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #E0E1DD;
+    background-color: #aeff00;
     border: 0;
     border-radius: 30px;
-    cursor: pointer;
+    cursor: default;
     transition: 1.2s;
 }
 
 h2.titulo{
-    color: white;
+    color: #aeff00;
     font-size: 38px;
     text-align: center;
 }
@@ -42,19 +42,33 @@ h2.titulo span{
 }
 
 button:hover{
-    box-shadow: 0px 0px 8px white;
+    box-shadow: 0px 0px 8px;
     transform: scale(1.05);
+    transform: skew(20seg);
+    transition-duration: 0.6s;
+    transform-origin: top left;
+    background-color: #E0E1DD;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 /* ESTILO DO CABEÇALHO */
 header{
-    padding: 40px 4%;
+    padding: 30px 4%;
 }
 
 header > .interface{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 20 10px;
+    left: 0;
+    right: 0;
+    position: fixed; 
 }
 
 header a{
@@ -81,13 +95,14 @@ header nav ul li{
 
 /* ESTILO DO TOPO DO SITE*/
 section.topo-do-site{
-    padding: 40px 4%;
+    padding: 280px 4%;
+    height: 100vh;
 }
 
 section.topo-do-site .flex{
     align-items: center;
     justify-content: center;
-    gap: 90px;
+    gap: 70px;
 }
 
 .topo-do-site h1{
@@ -121,7 +136,9 @@ section.topo-do-site .flex{
 
 /* ESTILO DAS ESPECIALIDADES */
 section.especialidades{
-    padding: 40px 4%;
+    padding: 300px 4%;
+    height: 100vh;
+
 }
 
 section.especialidades .flex{
@@ -143,7 +160,7 @@ section.especialidades .flex{
 
 .especialidades .especialidades-box i{
     font-size: 70px;
-    color: #E0E1DD;
+    color: #aeff00;
 }
 
 .especialidades .especialidades-box h3{
@@ -153,12 +170,13 @@ section.especialidades .flex{
 
 /* ESTILO SOBRE */
 section.sobre{
-    padding: 90px 4%;
+    padding: 250px 4%;
+    height: 100vh;
 }
 
 section.sobre .flex{
     align-items: center;
-    gap: 60px;
+    gap: 70px;
 }
 
 .sobre .txt-sobre{
@@ -172,7 +190,7 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre h2 span{
-    color: #1b263b;
+    color: #aeff00;
     display: block;
 }
 
@@ -186,17 +204,17 @@ section.sobre .flex{
     height: 60px;
     border-radius: 30px;
     border: none;
-    background-color:  #E0E1DD;
+    background-color:  #aeff00;
     font-size: 22px;
-    cursor: pointer;
+    cursor: default;
     margin: 0 5px;
     transition: .2s;
 }
 
 /* ESTILO DO PORTIFÓLIO */
 section.portifolio{
-    padding: 80px 4%;
-    box-shadow: 0 0 40px 10px #ffffff1d;
+    padding: 190px 4%;
+    height: 100vh;
 }
 
 section.portifolio .flex{
@@ -243,20 +261,21 @@ section.portifolio .flex{
 
 /* ESTILO DO RODAPÉ */
 footer{
-    padding: 40px 4%;
-    box-shadow: 0 0 40px 10px #ffffff1d;
+    padding: 280px 4%;
 }
 
 footer .flex{
     justify-content: space-between;
+    color: #aeff00;
+    font-size: 22px;
 }
 
 footer .line-footer{
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 .borda{
-    border-top: 2px solid #778DA9;
+    border-top: 2px solid #ffffff;
 }
 
 footer .line-footer p i{
@@ -266,4 +285,5 @@ footer .line-footer p i{
 
 footer .line-footer p a{
     color: #fff;
+    font-size: 20px;
 }
