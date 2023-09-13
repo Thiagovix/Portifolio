@@ -54,10 +54,11 @@ span{
     letter-spacing: 1px;
     line-height: 200px;
     animation: text 3s ease-in-out infinite;
+
 }
 
 @keyframes text{
-    0%{
+    50%{
         color: black;
     }
 }
